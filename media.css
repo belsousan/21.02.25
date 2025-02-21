@@ -1,0 +1,66 @@
+/* Responsive: Petits Écrans */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .navbar .navbar-links {
+        width: 100%;
+    }
+    .navbar .navbar-links ul {
+        flex-direction: column;
+    }
+    .navbar .navbar-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .navbar .navbar-links a {
+        display: block;
+        padding: 10px;
+        width: 100%;
+    }
+    .toggle-button {
+        display: none;
+        flex-direction: column;
+        position:absolute;
+        right: 20px;  
+    }
+
+
+}
+
+
+  /* Responsive: Grands Écrans */
+@media (min-width: 1200px) {
+    .navbar {
+        padding: 5px 20px; /* Réduit le padding pour économiser de l'espace */
+    }
+    .navbar .navbar-brand {
+        font-size: 1.2rem; /* Réduit la taille de la police du logo/marque */
+    }
+    .navbar .navbar-nav li {
+        margin-left: 10px; /* Réduit l'espacement entre les éléments */
+    }
+}
+
+
+/* Pour les petits écrans (tablettes et mobiles) */
+@media (max-width: 768px) {
+    {
+        max-width: 90%; /* Réduit la largeur pour éviter les bords */
+        padding: 15px; /* Ajuste le padding */
+        font-size: 18px; /* Réduit la taille du texte */
+    }
+}
+
+/* Pour les très petits écrans (téléphones) */
+@media (max-width: 480px) {
+   
+        max-width: 95%; /* Presque toute la largeur, mais avec une marge */
+        padding: 10px; /* Moins de padding */
+        font-size: 16px; /* Texte plus petit */
+}

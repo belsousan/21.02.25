@@ -1,0 +1,182 @@
+/* styles.css */
+
+
+/* a pas toucher */
+
+.logo {
+    width: 50px; /* Ajuste la largeur du logo */
+    height: auto; /* Maintient le ratio d'aspect original de l'image */
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links ul {
+    display: flex;
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0;
+}
+
+.navbar-links li {
+    margin-left: 30px; /* Réduit l'espacement entre les éléments Modifier/me15 de base  */
+}
+
+.navbar-links a {
+    color: #050606; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    font-size: 1rem; /* Taille de la police des liens */
+}
+
+
+/* Classe active pour afficher les liens de la navbar */
+.navbar.active .navbar-links {
+    display: flex;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+    display: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px; /* Ajuste l'espacement intérieur */
+    top: 0;
+    z-index: 1000; /* Assure que la navbar est au-dessus des autres éléments */
+    opacity: 0.8; /* 80% opaque legerement transparent */
+}
+
+
+/* a pas toucher */
+
+
+
+
+
+/* text body */
+
+
+body {
+    padding-top: 20px; /* Ajuste cette valeur selon la hauteur de ta navbar */
+    margin: 0; /* Supprime les marges par défaut du body */
+    padding: 0; /* Supprime les paddings par défaut du body */
+   
+/* Mode normal */
+    background-color: rgb(97, 95, 95);
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* Mode contraste élevé */
+#toggleContrast {
+    background-color: #000;
+    color: #ffeb3b; /* Jaune vif pour un contraste fort */
+    color: #ff5722; /* Orange vif pour les liens */
+    background: #ffeb3b;
+    color: #000;
+    border: 2px solid #ffeb3b;
+
+}
+
+/* text body button contraste */
+
+
+
+
+
+
+ /* Séparation entre sections */
+ .separator {
+    height: 10px;
+    background-color: #f8f9f7; /* Une couleur grise légère */
+    margin: 50px;
+}
+
+
+/* test text debut */
+
+.textdebut {
+font-size: 24px;
+font-weight: bold;
+width: 80%;
+margin: 10px;
+padding: 10px;
+text-align: center; 
+
+/* Style futuriste */
+font-family: 'Orbitron', sans-serif;
+color: blanc; /* Bleu cyan néon */
+text-shadow: 0 0 10px rgb(19, 19, 22), 0 0 20px rgb(1, 8, 8), 0 0 40px rgb(11, 10, 9);
+
+/* Fond et bordure high-tech */
+
+border: 1px solid rgba(1, 14, 14, 0.7);
+border-radius: 10px;
+box-shadow: 0 0 50px rgba(2, 8, 3, 0.4);
+
+/* Animation futuriste */
+animation: neonPulse 1.5s infinite alternate;
+}
+
+@keyframes neonPulse {
+    0% {
+        text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px rgb(19, 19, 29);
+    }
+    100% {
+        text-shadow: 0 0 15px #0ff, 0 0 30px #0ff, 0 0 50px rgb(12, 12, 17);
+    }
+}
+
+/* test */
+
+.container1, .container2, .container3 {
+width: 80%;
+margin: 30px;
+height: auto;
+padding : 10px;
+border: 5px solid rgb(247, 251, 248);
+font-size: 2em;
+margin-right: 20px;
+line-height: 1.6;
+align-items: center;
+overflow: hidden;
+text-overflow: ellipsis;
+flex: auto;
+}
+
+        
+h2 {
+    background-color: #0ddd5d;
+}
+.horaire {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.sociaux {
+    border: #0ddd5d;
+
+}
+
+.login-container {
+    width: auto;
+    margin: auto;
+    height: auto;
+    padding: 30px;
+    border: #0ddd5d;
+    align-items: initial;
+}
+
+
+        /* celui la ces pour la page animaux */
+
+.image-accueil .image-accueil2 .image-accueil3 {
+    display: flex;
+     justify-content: space-between; /* espacement entre les images */
+     gap: 20px; /* crée un espace de 20 pixels entre les elements  */
+     padding: 20px;
+ }
+ /* page animaux */

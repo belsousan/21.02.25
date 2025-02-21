@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="image/faviconmodern.png" alt="favicon">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <title> ZOO PARADIS NATUREL ECOLOGIQUE </title>
+</head>
+
+<header>
+    <!-- début de la barre de navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!--nom ou logo de la marque-->
+        <img src="image/faviconmodern.png" alt="logo zoo" class="logo" height="30px" width="30px">
+        <a class="navbar-brand" href="index.html">Accueil</a>
+        <!--bouton menue buger pour les petits écrans-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <!--contenue de la navbar-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="habitat.html"> Habitat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Animaux.html">Animaux</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Connexion</a>
+            </li>
+      </nav>
+
+    <main>
+      <img src="image/accueil.png" class="imagenavbar" alt="accueil" width="100%" >
+    </main>
+      
+</header>
+
+
+
+<body>
+  <div class="login-container">
+    <h2>Connexion Client</h2>
+    <form id="login-form" action="login.php" method="POST">
+      <div class="form-group">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Se connecter</button>
+    </form>
+    <p id="error-message" class="error-message"></p>
+    <p>Pas encore de compte ? <a href="register.html">Inscrivez-vous</a></p>
+  </div>
+
+  <div class="login-container">
+    <h2>Connexion Soignant</h2>
+    <form id="login-form" action="login.php" method="POST">
+      <div class="form-group">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Se connecter</button>
+    </form>
+    <p id="error-message" class="error-message"></p>
+    <p>Pas encore de compte ? <a href="register.html">Inscrivez-vous</a></p>
+  </div>
+
+  <div class="login-container">
+    <h2>Inscription</h2>
+    <form id="register-form" action="register.php" method="POST">
+      <div class="form-group">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">S'inscrire</button>
+      </div>
+
+  <section>
+    <div class="separator"></div>
+    </section>
+  
+  <body>
+  
+  
+  <section>
+  <div class="horaire">
+  <h2>HORAIRE</h2>
+  <p>MERCREDI AU DIMANCHE</p>
+  <p>OUVERT DE 9H30 A 20H TOUT LES JOURS</p>
+  </div>
+  </section>
+  
+  <hr color="black" size="1" width="100%">
+  
+  <footer>
+    <section><div class="sociaux">
+      <h3>CONTACTER NOUS !</h3>
+      <button><img src="image/logo facebook.png"></button>
+      <button><img src="image/logo insta.png"></button>
+      <button><img src="image/logo youtube.png"></button>
+      <button><img src="image/Twitx.jpg"></button>
+      </section></div>
+  
+    <p class="copyright">
+      COPYRIGHT &copy; 2025 MON ZOO ARCADIA
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script> src="scripts.js"</script>
+  </body>
+  </html>
